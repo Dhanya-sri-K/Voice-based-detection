@@ -1,0 +1,27 @@
+# Virtual Environments
+venv311/
+venv/
+env/
+ENV/
+
+# Large Audio Datasets & Extracted Feature CSVs
+ASVspoof_Data/
+features/
+data_splits/
+*.flac
+*.wav
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
